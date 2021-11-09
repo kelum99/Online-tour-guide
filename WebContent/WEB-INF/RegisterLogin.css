@@ -1,0 +1,165 @@
+@charset "ISO-8859-1";
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	min-height: 100vh;
+	background-image: url(Images/wp1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.main-container-register{
+	display:flex;
+	 justify-content: center;
+	 margin: 5% 0 0 10%;
+}
+body h1{
+	margin:3% 0 0 10%;
+	text-align:center;
+	font-size:64px;
+	color: #BDEFE8;
+}
+.sub-h2{
+	text-align:center;
+	font-size:50px;
+	color: #BDEFE8;
+	margin:10px 0 0 16%;
+}
+
+.register-form{
+	
+	
+	height: 600px;
+    width: 500px;
+    border: 2px solid black;
+    padding: 3%;
+    background-color:rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+    color: white;
+    font-size:18px;
+    border-radius: 25px;
+    text-align: justify;
+}
+
+.fields{
+	padding: 10px;
+	
+}
+
+.fields input{
+	padding-left: 3px;
+	margin-left: 20px;
+	width: 200px;
+	height: 25px;
+	overflow: hidden;
+	font-size:14px;
+}
+
+#rgbtn{
+	margin:8% 0 0 25%;
+	padding:5px;
+	width:120px;
+	height: 40px;
+	overflow: hidden;
+	border: 3px solid #BDEFE8;
+	border-radius: 5px;
+	font-size: 19px;
+	color:Black;
+	background: snow;
+	cursor: pointer;
+	ouline: none;
+}
+
+
+/* Login Css */
+
+.login-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 40px;
+  margin: 4% 50%;
+  background: white;
+  width: 450px;
+  height: 600px;
+  border-radius: 28px;
+ 
+}
+
+.login-container h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    padding: 13px 0 13px 25%;
+    float: center;
+    margin-bottom: 45px;
+    color: #353531;
+    border-bottom: 6px solid #68DE9F;
+    width: 350px;
+   }
+
+.icon1{
+    height: 15px;
+    width: 15px;
+    position: relative;
+    right: -15px;
+}
+
+.textbox{
+    margin:15px;
+    padding: 7px;
+}
+
+.textbox input{
+    overflow: hidden;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #697177;
+    padding: 7px 17px;
+    color: black;
+    background: transparent;
+    font-size: 15px;
+}
+
+.btnlog{
+    margin: 15px 0;
+    text-align: center;
+}
+
+.btnlog input{
+    height: 100%;
+    width: 70%;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 7px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Oxygen', sans-serif;
+    border: 3px solid #68DE9F;
+    outline: none;
+    cursor: pointer;
+}
+
+.btnlog input:hover{
+    background: #68DE9F;
+    border: 2px solid black; 
+}
+
+
+.signin{
+    text-align: left;
+    margin: 20px 15px;
+    font-size: 18px;
+}
+
+.signin a{
+    text-decoration: none;
+    color: #28009F;
+}
+
+.signin a:hover{
+    text-decoration: underline;
+}
+

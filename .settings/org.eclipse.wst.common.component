@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="OOP Project - Online Tour Guide">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/" source-path="/WebContent/WEB-INF"/>
+        <wb-resource deploy-path="/" source-path="/build"/>
+        <wb-resource deploy-path="/" source-path="/src/oop"/>
+        <property name="context-root" value="OOP_Project_-_Online_Tour_Guide"/>
+        <property name="java-output-path" value="/OOP Project - Online Tour Guide/build/classes"/>
+    </wb-module>
+</project-modules>
